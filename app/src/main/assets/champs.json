@@ -1,0 +1,739 @@
+{
+  "data": [
+    {
+      "name_en": "Aatrox",
+      "key": "266",
+      "name": "아트록스"
+    },
+    {
+      "name_en": "Ahri",
+      "key": "103",
+      "name": "아리"
+    },
+    {
+      "name_en": "Akali",
+      "key": "84",
+      "name": "아칼리"
+    },
+    {
+      "name_en": "Alistar",
+      "key": "12",
+      "name": "알리스타"
+    },
+    {
+      "name_en": "Amumu",
+      "key": "32",
+      "name": "아무무"
+    },
+    {
+      "name_en": "Anivia",
+      "key": "34",
+      "name": "애니비아"
+    },
+    {
+      "name_en": "Annie",
+      "key": "1",
+      "name": "애니"
+    },
+    {
+      "name_en": "Aphelios",
+      "key": "523",
+      "name": "아펠리오스"
+    },
+    {
+      "name_en": "Ashe",
+      "key": "22",
+      "name": "애쉬"
+    },
+    {
+      "name_en": "AurelionSol",
+      "key": "136",
+      "name": "아우렐리온 솔"
+    },
+    {
+      "name_en": "Azir",
+      "key": "268",
+      "name": "아지르"
+    },
+    {
+      "name_en": "Bard",
+      "key": "432",
+      "name": "바드"
+    },
+    {
+      "name_en": "Blitzcrank",
+      "key": "53",
+      "name": "블리츠크랭크"
+    },
+    {
+      "name_en": "Brand",
+      "key": "63",
+      "name": "브랜드"
+    },
+    {
+      "name_en": "Braum",
+      "key": "201",
+      "name": "브라움"
+    },
+    {
+      "name_en": "Caitlyn",
+      "key": "51",
+      "name": "케이틀린"
+    },
+    {
+      "name_en": "Camille",
+      "key": "164",
+      "name": "카밀"
+    },
+    {
+      "name_en": "Cassiopeia",
+      "key": "69",
+      "name": "카시오페아"
+    },
+    {
+      "name_en": "Chogath",
+      "key": "31",
+      "name": "초가스"
+    },
+    {
+      "name_en": "Corki",
+      "key": "42",
+      "name": "코르키"
+    },
+    {
+      "name_en": "Darius",
+      "key": "122",
+      "name": "다리우스"
+    },
+    {
+      "name_en": "Diana",
+      "key": "131",
+      "name": "다이애나"
+    },
+    {
+      "name_en": "Draven",
+      "key": "119",
+      "name": "드레이븐"
+    },
+    {
+      "name_en": "DrMundo",
+      "key": "36",
+      "name": "문도 박사"
+    },
+    {
+      "name_en": "Ekko",
+      "key": "245",
+      "name": "에코"
+    },
+    {
+      "name_en": "Elise",
+      "key": "60",
+      "name": "엘리스"
+    },
+    {
+      "name_en": "Evelynn",
+      "key": "28",
+      "name": "이블린"
+    },
+    {
+      "name_en": "Ezreal",
+      "key": "81",
+      "name": "이즈리얼"
+    },
+    {
+      "name_en": "Fname_endlesticks",
+      "key": "9",
+      "name": "피들스틱"
+    },
+    {
+      "name_en": "Fiora",
+      "key": "114",
+      "name": "피오라"
+    },
+    {
+      "name_en": "Fizz",
+      "key": "105",
+      "name": "피즈"
+    },
+    {
+      "name_en": "Galio",
+      "key": "3",
+      "name": "갈리오"
+    },
+    {
+      "name_en": "Gangplank",
+      "key": "41",
+      "name": "갱플랭크"
+    },
+    {
+      "name_en": "Garen",
+      "key": "86",
+      "name": "가렌"
+    },
+    {
+      "name_en": "Gnar",
+      "key": "150",
+      "name": "나르"
+    },
+    {
+      "name_en": "Gragas",
+      "key": "79",
+      "name": "그라가스"
+    },
+    {
+      "name_en": "Graves",
+      "key": "104",
+      "name": "그레이브즈"
+    },
+    {
+      "name_en": "Hecarim",
+      "key": "120",
+      "name": "헤카림"
+    },
+    {
+      "name_en": "Heimerdinger",
+      "key": "74",
+      "name": "하이머딩거"
+    },
+    {
+      "name_en": "Illaoi",
+      "key": "420",
+      "name": "일라오이"
+    },
+    {
+      "name_en": "Irelia",
+      "key": "39",
+      "name": "이렐리아"
+    },
+    {
+      "name_en": "Ivern",
+      "key": "427",
+      "name": "아이번"
+    },
+    {
+      "name_en": "Janna",
+      "key": "40",
+      "name": "잔나"
+    },
+    {
+      "name_en": "JarvanIV",
+      "key": "59",
+      "name": "자르반 4세"
+    },
+    {
+      "name_en": "Jax",
+      "key": "24",
+      "name": "잭스"
+    },
+    {
+      "name_en": "Jayce",
+      "key": "126",
+      "name": "제이스"
+    },
+    {
+      "name_en": "Jhin",
+      "key": "202",
+      "name": "진"
+    },
+    {
+      "name_en": "Jinx",
+      "key": "222",
+      "name": "징크스"
+    },
+    {
+      "name_en": "Kaisa",
+      "key": "145",
+      "name": "카이사"
+    },
+    {
+      "name_en": "Kalista",
+      "key": "429",
+      "name": "칼리스타"
+    },
+    {
+      "name_en": "Karma",
+      "key": "43",
+      "name": "카르마"
+    },
+    {
+      "name_en": "Karthus",
+      "key": "30",
+      "name": "카서스"
+    },
+    {
+      "name_en": "Kassadin",
+      "key": "38",
+      "name": "카사딘"
+    },
+    {
+      "name_en": "Katarina",
+      "key": "55",
+      "name": "카타리나"
+    },
+    {
+      "name_en": "Kayle",
+      "key": "10",
+      "name": "케일"
+    },
+    {
+      "name_en": "Kayn",
+      "key": "141",
+      "name": "케인"
+    },
+    {
+      "name_en": "Kennen",
+      "key": "85",
+      "name": "케넨"
+    },
+    {
+      "name_en": "Khazix",
+      "key": "121",
+      "name": "카직스"
+    },
+    {
+      "name_en": "Kindred",
+      "key": "203",
+      "name": "킨드레드"
+    },
+    {
+      "name_en": "Kled",
+      "key": "240",
+      "name": "클레드"
+    },
+    {
+      "name_en": "KogMaw",
+      "key": "96",
+      "name": "코그모"
+    },
+    {
+      "name_en": "Leblanc",
+      "key": "7",
+      "name": "르블랑"
+    },
+    {
+      "name_en": "LeeSin",
+      "key": "64",
+      "name": "리 신"
+    },
+    {
+      "name_en": "Leona",
+      "key": "89",
+      "name": "레오나"
+    },
+    {
+      "name_en": "Lissandra",
+      "key": "127",
+      "name": "리산드라"
+    },
+    {
+      "name_en": "Lucian",
+      "key": "236",
+      "name": "루시안"
+    },
+    {
+      "name_en": "Lulu",
+      "key": "117",
+      "name": "룰루"
+    },
+    {
+      "name_en": "Lux",
+      "key": "99",
+      "name": "럭스"
+    },
+    {
+      "name_en": "Malphite",
+      "key": "54",
+      "name": "말파이트"
+    },
+    {
+      "name_en": "Malzahar",
+      "key": "90",
+      "name": "말자하"
+    },
+    {
+      "name_en": "Maokai",
+      "key": "57",
+      "name": "마오카이"
+    },
+    {
+      "name_en": "MasterYi",
+      "key": "11",
+      "name": "마스터 이"
+    },
+    {
+      "name_en": "MissFortune",
+      "key": "21",
+      "name": "미스 포츈"
+    },
+    {
+      "name_en": "MonkeyKing",
+      "key": "62",
+      "name": "오공"
+    },
+    {
+      "name_en": "Mordekaiser",
+      "key": "82",
+      "name": "모데카이저"
+    },
+    {
+      "name_en": "Morgana",
+      "key": "25",
+      "name": "모르가나"
+    },
+    {
+      "name_en": "Nami",
+      "key": "267",
+      "name": "나미"
+    },
+    {
+      "name_en": "Nasus",
+      "key": "75",
+      "name": "나서스"
+    },
+    {
+      "name_en": "Nautilus",
+      "key": "111",
+      "name": "노틸러스"
+    },
+    {
+      "name_en": "Neeko",
+      "key": "518",
+      "name": "니코"
+    },
+    {
+      "name_en": "Nname_enalee",
+      "key": "76",
+      "name": "니달리"
+    },
+    {
+      "name_en": "Nocturne",
+      "key": "56",
+      "name": "녹턴"
+    },
+    {
+      "name_en": "Nunu",
+      "key": "20",
+      "name": "누누와 윌럼프"
+    },
+    {
+      "name_en": "Olaf",
+      "key": "2",
+      "name": "올라프"
+    },
+    {
+      "name_en": "Orianna",
+      "key": "61",
+      "name": "오리아나"
+    },
+    {
+      "name_en": "Ornn",
+      "key": "516",
+      "name": "오른"
+    },
+    {
+      "name_en": "Pantheon",
+      "key": "80",
+      "name": "판테온"
+    },
+    {
+      "name_en": "Poppy",
+      "key": "78",
+      "name": "뽀삐"
+    },
+    {
+      "name_en": "Pyke",
+      "key": "555",
+      "name": "파이크"
+    },
+    {
+      "name_en": "Qiyana",
+      "key": "246",
+      "name": "키아나"
+    },
+    {
+      "name_en": "Quinn",
+      "key": "133",
+      "name": "퀸"
+    },
+    {
+      "name_en": "Rakan",
+      "key": "497",
+      "name": "라칸"
+    },
+    {
+      "name_en": "Rammus",
+      "key": "33",
+      "name": "람머스"
+    },
+    {
+      "name_en": "RekSai",
+      "key": "421",
+      "name": "렉사이"
+    },
+    {
+      "name_en": "Renekton",
+      "key": "58",
+      "name": "레넥톤"
+    },
+    {
+      "name_en": "Rengar",
+      "key": "107",
+      "name": "렝가"
+    },
+    {
+      "name_en": "Riven",
+      "key": "92",
+      "name": "리븐"
+    },
+    {
+      "name_en": "Rumble",
+      "key": "68",
+      "name": "럼블"
+    },
+    {
+      "name_en": "Ryze",
+      "key": "13",
+      "name": "라이즈"
+    },
+    {
+      "name_en": "Sejuani",
+      "key": "113",
+      "name": "세주아니"
+    },
+    {
+      "name_en": "Senna",
+      "key": "235",
+      "name": "세나"
+    },
+    {
+      "name_en": "Shaco",
+      "key": "35",
+      "name": "샤코"
+    },
+    {
+      "name_en": "Shen",
+      "key": "98",
+      "name": "쉔"
+    },
+    {
+      "name_en": "Shyvana",
+      "key": "102",
+      "name": "쉬바나"
+    },
+    {
+      "name_en": "Singed",
+      "key": "27",
+      "name": "신지드"
+    },
+    {
+      "name_en": "Sion",
+      "key": "14",
+      "name": "사이온"
+    },
+    {
+      "name_en": "Sivir",
+      "key": "15",
+      "name": "시비르"
+    },
+    {
+      "name_en": "Skarner",
+      "key": "72",
+      "name": "스카너"
+    },
+    {
+      "name_en": "Sona",
+      "key": "37",
+      "name": "소나"
+    },
+    {
+      "name_en": "Soraka",
+      "key": "16",
+      "name": "소라카"
+    },
+    {
+      "name_en": "Swain",
+      "key": "50",
+      "name": "스웨인"
+    },
+    {
+      "name_en": "Sylas",
+      "key": "517",
+      "name": "사일러스"
+    },
+    {
+      "name_en": "Syndra",
+      "key": "134",
+      "name": "신드라"
+    },
+    {
+      "name_en": "TahmKench",
+      "key": "223",
+      "name": "탐 켄치"
+    },
+    {
+      "name_en": "Taliyah",
+      "key": "163",
+      "name": "탈리야"
+    },
+    {
+      "name_en": "Talon",
+      "key": "91",
+      "name": "탈론"
+    },
+    {
+      "name_en": "Taric",
+      "key": "44",
+      "name": "타릭"
+    },
+    {
+      "name_en": "Teemo",
+      "key": "17",
+      "name": "티모"
+    },
+    {
+      "name_en": "Thresh",
+      "key": "412",
+      "name": "쓰레쉬"
+    },
+    {
+      "name_en": "Tristana",
+      "key": "18",
+      "name": "트리스타나"
+    },
+    {
+      "name_en": "Trundle",
+      "key": "48",
+      "name": "트런들"
+    },
+    {
+      "name_en": "Tryndamere",
+      "key": "23",
+      "name": "트린다미어"
+    },
+    {
+      "name_en": "TwistedFate",
+      "key": "4",
+      "name": "트위스티드 페이트"
+    },
+    {
+      "name_en": "Twitch",
+      "key": "29",
+      "name": "트위치"
+    },
+    {
+      "name_en": "Udyr",
+      "key": "77",
+      "name": "우디르"
+    },
+    {
+      "name_en": "Urgot",
+      "key": "6",
+      "name": "우르곳"
+    },
+    {
+      "name_en": "Varus",
+      "key": "110",
+      "name": "바루스"
+    },
+    {
+      "name_en": "Vayne",
+      "key": "67",
+      "name": "베인"
+    },
+    {
+      "name_en": "Veigar",
+      "key": "45",
+      "name": "베이가"
+    },
+    {
+      "name_en": "Velkoz",
+      "key": "161",
+      "name": "벨코즈"
+    },
+    {
+      "name_en": "Vi",
+      "key": "254",
+      "name": "바이"
+    },
+    {
+      "name_en": "Viktor",
+      "key": "112",
+      "name": "빅토르"
+    },
+    {
+      "name_en": "Vladimir",
+      "key": "8",
+      "name": "블라디미르"
+    },
+    {
+      "name_en": "Volibear",
+      "key": "106",
+      "name": "볼리베어"
+    },
+    {
+      "name_en": "Warwick",
+      "key": "19",
+      "name": "워윅"
+    },
+    {
+      "name_en": "Xayah",
+      "key": "498",
+      "name": "자야"
+    },
+    {
+      "name_en": "Xerath",
+      "key": "101",
+      "name": "제라스"
+    },
+    {
+      "name_en": "XinZhao",
+      "key": "5",
+      "name": "신 짜오"
+    },
+    {
+      "name_en": "Yasuo",
+      "key": "157",
+      "name": "야스오"
+    },
+    {
+      "name_en": "Yorick",
+      "key": "83",
+      "name": "요릭"
+    },
+    {
+      "name_en": "Yuumi",
+      "key": "350",
+      "name": "유미"
+    },
+    {
+      "name_en": "Zac",
+      "key": "154",
+      "name": "자크"
+    },
+    {
+      "name_en": "Zed",
+      "key": "238",
+      "name": "제드"
+    },
+    {
+      "name_en": "Ziggs",
+      "key": "115",
+      "name": "직스"
+    },
+    {
+      "name_en": "Zilean",
+      "key": "26",
+      "name": "질리언"
+    },
+    {
+      "name_en": "Zoe",
+      "key": "142",
+      "name": "조이"
+    },
+    {
+      "name_en": "Zyra",
+      "key": "143",
+      "name": "자이라"
+    }
+  ]
+}
