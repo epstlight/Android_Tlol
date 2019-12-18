@@ -49,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
                             try {
                                 JSONObject jsonObject = new JSONObject(response);
                                 String accountId = jsonObject.getString("accountId");
+                                String summonerId = jsonObject.getString("id");
                                 intent.putExtra("accountId", accountId);
+                                intent.putExtra("summonerId", summonerId);
                                 searchSummoner.setText("");
                                 startActivity(intent);
                             } catch (JSONException e) {
