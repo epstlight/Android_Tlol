@@ -34,6 +34,7 @@ import io.realm.RealmResults;
 
 public class ResultActivity extends AppCompatActivity {
 //    private TextView resultText;
+    private TextView winRate_40;
     private RequestQueue queue;
     private int[] laneCnt = new int[5];
 
@@ -53,6 +54,7 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
 
 //        resultText = findViewById(R.id.resultText);
+        winRate_40 = findViewById(R.id.winRate);
         Intent intent = getIntent();
         String accountId = intent.getStringExtra("accountId");
         String summonerId = intent.getStringExtra("summonerId");
@@ -122,6 +124,8 @@ public class ResultActivity extends AppCompatActivity {
                                     if (finalI == 40) {
                                         kdaRate_40 = ((double) (killCnt_40 + assistCnt_40) / (double) (deathCnt_40));
                                         kdaRate_40 = Double.parseDouble(String.format("%.1f", kdaRate_40));
+                                        String winRate = Double.toString(winCnt_40 / 40);
+                                        winRate_40.setText(winRate);
                                         System.out.println(winCnt_40);
                                         System.out.println(kdaRate_40);
                                         System.out.println(kdaCnt_40[0]);
