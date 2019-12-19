@@ -33,7 +33,7 @@ import io.realm.RealmConfiguration;
 import io.realm.RealmResults;
 
 public class ResultActivity extends AppCompatActivity {
-    private TextView resultText;
+//    private TextView resultText;
     private RequestQueue queue;
     private int[] laneCnt = new int[5];
 
@@ -52,7 +52,7 @@ public class ResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        resultText = findViewById(R.id.resultText);
+//        resultText = findViewById(R.id.resultText);
         Intent intent = getIntent();
         String accountId = intent.getStringExtra("accountId");
         String summonerId = intent.getStringExtra("summonerId");
