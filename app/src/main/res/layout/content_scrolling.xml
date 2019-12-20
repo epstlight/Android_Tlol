@@ -8,24 +8,186 @@
     tools:context=".ResultActivity"
     tools:showIn="@layout/activity_result">
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/winRateGroup"
         android:layout_width="match_parent"
-        android:layout_height="400dp">
+        android:layout_height="wrap_content">
+
         <TextView
-            android:id="@+id/isTrollText"
+            android:id="@+id/recentGame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="트롤일 확률"
+            android:text="최근 40게임 요약"
             android:textSize="20sp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"/>
         <TextView
+            android:id="@+id/winRateIndex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:text="80%"
+            android:text="승률"
             android:textSize="20sp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/isTrollText" />
-        
+            app:layout_constraintTop_toBottomOf="@+id/recentGame"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/kdaIndex"/>
+
+        <TextView
+            android:id="@+id/winRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="50%"
+            app:layout_constraintTop_toBottomOf="@+id/winRateIndex"
+            app:layout_constraintLeft_toLeftOf="@id/winRateIndex"
+            app:layout_constraintRight_toRightOf="@id/winRateIndex"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/winRate"
+            app:layout_constraintLeft_toLeftOf="@+id/winRate"
+            app:layout_constraintRight_toRightOf="@id/winRate">
+            <TextView
+                android:id="@+id/leftB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="("
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/winGames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="20"
+                android:textColor="#0000FF"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/leftB" />
+            <TextView
+                android:id="@+id/slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="/"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/winGames" />
+            <TextView
+                android:id="@+id/loseGames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#FF0000"
+                android:text="20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/slash" />
+            <TextView
+                android:id="@+id/rightB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/loseGames"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/kdaIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KDA"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/recentGame"
+            app:layout_constraintLeft_toRightOf="@+id/winRateIndex"
+            app:layout_constraintRight_toRightOf="parent" />
+        <TextView
+            android:id="@+id/kda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.00"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/kdaIndex"
+            app:layout_constraintLeft_toLeftOf="@id/kdaIndex"
+            app:layout_constraintRight_toRightOf="@id/kdaIndex" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/kdaGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/kda"
+            app:layout_constraintLeft_toLeftOf="@+id/kda"
+            app:layout_constraintRight_toRightOf="@id/kda">
+            <TextView
+                android:id="@+id/leftBb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="("
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/kills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/leftBb" />
+            <TextView
+                android:id="@+id/slash1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="/"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/kills" />
+            <TextView
+                android:id="@+id/deaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/slash1" />
+            <TextView
+                android:id="@+id/slash2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="/"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/deaths" />
+            <TextView
+                android:id="@+id/assists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/slash2" />
+            <TextView
+                android:id="@+id/rightBb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/assists"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--  챔프별  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="챔피언 별 TLoL 지수"
+            app:layout_constraintTop_toBottomOf="@+id/kdaGroup"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
